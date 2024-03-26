@@ -1,0 +1,17 @@
+console.log("Testing equality with strings:");
+console.log("apple" == "apple");
+console.log("apple" == "apple");
+console.log("testing the lower case:");
+console.log("apple".toLowerCase() == "Apple");
+console.log("numerical tests");
+console.log(10 > 5);
+console.log(2 > 1);
+console.log("test with 'and' and 'or':");
+console.log(true && false);
+console.log(true || false);
+let fruits = ["apple", "banana", "cherry"];
+console.log("Is 'apple' in fruits?");
+console.log(!fruits.includes("apple"));
+console.log("Is 'mango' in fruits?");
+console.log(!fruits.includes("mango"));
+export {};
